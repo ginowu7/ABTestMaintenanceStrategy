@@ -63,7 +63,7 @@ func validateABTests(path: String) {
             let expirationDate = dateFormatter.date(from: expirationDateSerialized) else {
                 fatalError("Incorrect expiration date format: MM/dd/yyyy")
         }
-        if let expiredTest = regexFor(".+?(?=:)", content: $0).first, expirationDate > currentDate {
+        if let expiredTest = regexFor(".+?(?=:)", content: $0).first, expirationDate < currentDate {
             print("\(expiredTest) AB Test is expired - \nWarning: \($0)")
         }
     }
