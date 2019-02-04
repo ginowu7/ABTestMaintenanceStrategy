@@ -138,6 +138,7 @@
 				D4F7A58122050094002970CE /* Sources */,
 				D4F7A58222050094002970CE /* Frameworks */,
 				D4F7A58322050094002970CE /* Resources */,
+				7D704AD82208C7110041C133 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -253,6 +254,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7D704AD82208C7110041C133 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./scripts/ab_test_maintenance.swift VariantProviding\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D4F7A58122050094002970CE /* Sources */ = {
