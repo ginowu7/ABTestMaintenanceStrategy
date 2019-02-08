@@ -138,7 +138,7 @@
 				D4F7A58122050094002970CE /* Sources */,
 				D4F7A58222050094002970CE /* Frameworks */,
 				D4F7A58322050094002970CE /* Resources */,
-				7D704AD82208C7110041C133 /* ShellScript */,
+				7D704AD82208C7110041C133 /* AB Test Maintenance */,
 			);
 			buildRules = (
 			);
@@ -256,7 +256,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7D704AD82208C7110041C133 /* ShellScript */ = {
+		7D704AD82208C7110041C133 /* AB Test Maintenance */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -265,6 +265,7 @@
 			);
 			inputPaths = (
 			);
+			name = "AB Test Maintenance";
 			outputFileListPaths = (
 			);
 			outputPaths = (
