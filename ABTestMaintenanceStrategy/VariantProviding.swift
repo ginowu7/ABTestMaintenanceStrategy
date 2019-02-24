@@ -11,16 +11,16 @@ import Foundation
 public protocol DynamicVariableProviding: class {
     static func load()
 
-    var enableCloseAccountOption: Bool { get }              // AB_TEST: Gino Wu | Reg squad | Exp 02/02/2019
-    var iraVideoValuePropYoutubeId: String { get }          // AB_TEST: Gino Wu | Growth squad | Exp 01/02/2030
-    var custodianVideoValuePropYoutubeId: String { get }    // AB_TEST: Gino Wu | Growth squad | Exp 01/02/2030
-    var investVideoValuePropYoutubeId: String { get }       // AB_TEST: Gino Wu | Growth squad | Exp 01/02/2030
-    var securitiesLendingVariables: String { get }          // AB_TEST: Gino Wu | Reg squad | Exp 10/10/2018
-    var prefundVideoUrl: URL? { get }                       // AB_TEST: Gino Wu | Growth squad | Exp 01/02/2030
-    var postPurchaseValuePropType: String { get }           // AB_TEST: Gino Wu | Growth squad | Exp 01/02/2030
-    var postPurchaseValuePropDeepLink: String { get }       // AB_TEST: Gino Wu | Growth squad | Exp 01/02/2030
-    var foundersCardVideoUrl: URL? { get }                  // AB_TEST: Gino Wu | Growth squad | Exp 01/02/2030
-    var autoStashScheduleType: String { get }               // AB_TEST: Gino Wu | Growth squad | Exp 01/02/2030
+    var isNewUserFlow: Bool { get }                             // AB_TEST: Gino Wu | Reg squad | Exp 02/02/2019
+    var variantProductionVideoText: String { get }              // AB_TEST: Gino Wu | Growth squad | Exp 01/02/2030
+    var variantUserVideoText: String { get }                    // AB_TEST: Gino Wu | Growth squad | Exp 01/02/2030
+    var variantTermsAndConditions: String { get }               // AB_TEST: Gino Wu | Growth squad | Exp 01/02/2030
+    var variantNavigationText: String { get }                   // AB_TEST: Gino Wu | Reg squad | Exp 10/10/2018
+    var variantPlacholderVideoUrl: URL? { get }                 // AB_TEST: Gino Wu | Growth squad | Exp 01/02/2030
+    var variantSuccessViewCopy: String { get }                  // AB_TEST: Gino Wu | Growth squad | Exp 01/02/2030
+    var variantDeeplinkToTab: String { get }                    // AB_TEST: Gino Wu | Growth squad | Exp 01/02/2030
+    var variantnavigationImageUrl: URL? { get }                 // AB_TEST: Gino Wu | Growth squad | Exp 01/02/2030
+    var variantLoginTitleText: String { get }                   // AB_TEST: Gino Wu | Growth squad | Exp 01/02/2030
 }
 
 
